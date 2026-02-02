@@ -1,0 +1,18 @@
+<!DOCTYPE html><html>
+<head>
+<meta charset="UTF-8">
+<title>Mahjong Slot Simulation — Game</title>
+<link rel="stylesheet" href="game.css">
+</head>
+<body>
+<header>Mahjong Slot Simulation (Virtual Coin)</header><div class="card">
+  Saldo Coin: <span id="bal">0</span><br><br>
+  <button class="primary" onclick="spin()">SPIN — 100 coin</button>
+  <button onclick="refill()">Refill Harian +500</button>  <div class="reelWrap">
+    <div class="reel" id="r1"></div>
+    <div class="reel" id="r2"></div>
+    <div class="reel" id="r3"></div>
+  </div>  <div id="result"></div>
+  <div class="note">Simulasi poin virtual — bukan uang asli</div>
+</div><script src="game.js"></script></body>
+</html>
