@@ -1,0 +1,17 @@
+<!DOCTYPE html><html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel — Simulation</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header>Admin Panel — Mahjong Simulation</header><div class="card">
+  <div id="info"></div>
+  <input id="add" type="number" placeholder="Tambah / Kurangi coin">
+  <button onclick="addCoin()">Apply Coin</button>
+</div><div class="card">
+  Win Rate % <input id="rate" type="number" min="0" max="100">
+  <label><input type="checkbox" id="force"> Force Win</label><br><br>
+  <button onclick="saveRate()">Simpan Setting</button>
+</div><script src="admin.js"></script></body>
+</html>
